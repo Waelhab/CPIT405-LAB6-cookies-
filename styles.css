@@ -1,0 +1,17 @@
+/* Any additional custom styles go here */
+body {
+  text-align: center;
+}
+
+#commentBox {
+  width: 100%; /* Already responsive with Tailwind classes */
+}
+
+#commetnList p {
+  font-size: 15px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
